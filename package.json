@@ -1,0 +1,19 @@
+{
+  "name": "lorikeet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "esbuild src/index.js --bundle --outfile=bin/app.js --watch --servedir=."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mithril": "^2.3.7"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.11",
+    "http-server": "^14.1.1"
+  }
+}
