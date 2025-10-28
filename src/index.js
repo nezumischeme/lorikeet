@@ -34,9 +34,9 @@ var Search = {
   },
   view: function() {
     return m("div", [
-      m("h1", "Right leg"),
+      m("h3", "Right leg"),
       select("rights", state.rights),
-      m("h1", "Left leg"),
+      m("h3", "Left leg"),
       select("lefts", state.lefts),
     ]);
   }
@@ -59,14 +59,35 @@ var Birds = {
     });
   },
   view: function() {
-    return m("ul", 
-      filterBirds(
-        state.birds, 
-        state.selects["lefts"], 
-        state.selects["rights"])
-      .map(function(bird) {
-      return m("li", bird.name);
-    }));
+
+    var body = filterBirds(
+      state.birds, 
+      state.selects["lefts"], 
+      state.selects["rights"])
+    .map(function(bird) {
+      return m("tr", [
+        m("th", {scope: "row"}, bird.name),
+        m("td", bird.hatchYear),
+        m("td", bird.sex)
+      ]);
+    });
+    
+    return body;
+  }
+}
+
+var Table = {
+  view: function() {
+    return m("table", [
+      m("thead", [
+        m("tr", [
+          m("th", {scope: "col"}, "Name"),
+          m("th", {scope: "col"}, "Year"),
+          m("th", {scope: "col"}, "Gender")
+        ])
+      ]),
+      m(Birds)
+    ])
   }
 }
 
@@ -74,7 +95,7 @@ var Main = {
   view: function() {
     return m("div", [
       m(Search),
-      m(Birds)
+      m(Table)
     ])
   }
 }
