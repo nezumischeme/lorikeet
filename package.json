@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "esbuild src/app.js src/sw.js --bundle --outdir=. --watch --servedir=."
+    "start": "esbuild src/app.js src/sw.js --bundle --outdir=. --watch --servedir=.",
+    "build": "esbuild src/app.js src/sw.js --bundle --outdir=."
   },
   "keywords": [],
   "author": "",
