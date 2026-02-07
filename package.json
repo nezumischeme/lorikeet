@@ -2,9 +2,9 @@
   "name": "lorikeet",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "esbuild src/index.js --bundle --outfile=bin/app.js --watch --servedir=."
+    "start": "esbuild src/app.js src/sw.js --bundle --outdir=. --watch --servedir=."
   },
   "keywords": [],
   "author": "",

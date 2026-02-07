@@ -3,12 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css/css/sakura.css" type="text/css">
-    <title>Document</title>
+    <link rel="stylesheet" href="sakura.css" type="text/css">
+    <link rel="manifest" href="lorikeet.json">
+    <title>Lorikeet Search</title>
 </head>
 <body>
     <h1>Lorikeet Search</h1>
     <div id="app"></div>
-    <script src="bin/app.js"></script> 
+    <script src="app.js"></script>
+    <script>
+        if ("serviceWorker" in navigator) {
+            navigator.serviceWorker.register("sw.js")
+                .then(reg => console.log("Worker registered!"))
+                .catch(error => console.error("Registration failed:", error));
+        }
+    </script>
 </body>
 </html>

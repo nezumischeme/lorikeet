@@ -7,8 +7,6 @@ j = JSON.parse(f)
 lefts = []
 rights = []
 
-j["birds"]
-
 j["birds"].each do |bird|
   unless lefts.include? bird["left"]
     lefts.append bird["left"]
@@ -23,8 +21,11 @@ rights.sort!
 
 def print_list(l)
   print "["
-  l.each do |x|
-    print '"%s", ' % [x]
+  l.each_with_index do |x, idx|
+    print '"%s"' % [x]
+    unless idx == l.size - 1
+      print ","
+    end
   end
   puts "]"
 end
