@@ -6,7 +6,7 @@ var state = {
   birds: [],
   selects: {
     "lefts": "black",
-    "rights": "black" 
+    "rights": "black",
   }
 }
 
@@ -59,7 +59,6 @@ var Birds = {
     });
   },
   view: function() {
-
     var body = filterBirds(
       state.birds, 
       state.selects["lefts"], 
@@ -69,6 +68,7 @@ var Birds = {
         m("th", {scope: "row"}, bird.name),
         m("td", bird.hatchYear),
         m("td", bird.sex)
+        m("td", bird.number)
       ]);
     });
     
@@ -84,6 +84,7 @@ var Table = {
           m("th", {scope: "col"}, "Name"),
           m("th", {scope: "col"}, "Year"),
           m("th", {scope: "col"}, "Gender")
+          m("th", {scope: "col"}, "Number")
         ])
       ]),
       m(Birds)

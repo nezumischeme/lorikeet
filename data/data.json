@@ -1,33 +1,244 @@
-{"birds": [
-    {"name": "Lemon", "hatchYear": 2009, "sex": "male", "right": "black", "left": "gold"},
-    {"name": "Peppermint", "hatchYear": 2015, "sex": "female", "right": "silver", "left": "black"},
-    {"name": "Madame Adelaide Hermann", "hatchYear": 2015, "sex": "female", "right": "black", "left": "orange"},
-    {"name": "Boq", "hatchYear": 2019, "sex": "male", "right": "black", "left": "purple"},
-    {"name": "Snapper", "hatchYear": 2019, "sex": "male", "right": "black", "left": "teal"},
-    {"name": "Medika", "hatchYear": 2019, "sex": "female", "right": "brown", "left": "black"},
-    {"name": "Hyde", "hatchYear": 2020, "sex": "female", "right": "teal", "left": "black"},
-    {"name": "Houdini", "hatchYear": 2021, "sex": "male", "right": "black", "left": "dark green"},
-    {"name": "Angelica", "hatchYear": 2021, "sex": "female", "right": "orange", "left": "black"},
-    {"name": "Anakin", "hatchYear": 2021, "sex": "male", "right": "black", "left": "light blue"},
-    {"name": "Fluffy", "hatchYear": 2021, "sex": "female", "right": "black", "left": "pink"},
-    {"name": "Buckbeak", "hatchYear": 2021, "sex": "female", "right": "black", "left": "light green"},
-    {"name": "Wormtail", "hatchYear": 2021, "sex": "male", "right": "black", "left": "red"},
-    {"name": "Nagini", "hatchYear": 2021, "sex": "male", "right": "black", "left": "orange"},
-    {"name": "Niffler", "hatchYear": 2021, "sex": "male", "right": "black", "left": "blue"},
-    {"name": "Pocus", "hatchYear": 2021, "sex": "male", "right": "black", "left": "light green"},
-    {"name": "George", "hatchYear": 2023, "sex": "female", "right": "pink", "left": "black"},
-    {"name": "Paul", "hatchYear": 2023, "sex": "female", "right": "gold", "left": "black"},
-    {"name": "John", "hatchYear": 2023, "sex": "male", "right": "black", "left": "brown"},
-    {"name": "Ringo", "hatchYear": 2023, "sex": "male", "right": "black", "left": "red"},
-    {"name": "Florence", "hatchYear": 2023, "sex": "male", "right": "dark blue", "left": "black"},
-    {"name": "Mary", "hatchYear": 2023, "sex": "male", "right": "black", "left": "pink"},
-    {"name": "Diana", "hatchYear": 2023, "sex": "male", "right": "black", "left": "dark blue"},
-    {"name": "Rocket", "hatchYear": 2024, "sex": "male", "right": "black", "left": "yellow"},
-    {"name": "Hermione", "hatchYear": 2024, "sex": "male", "right": "black", "left": "teal"},
-    {"name": "Stanley Cup", "hatchYear": 2024, "sex": "female", "right": "black", "left": "yellow"},
-    {"name": "Bella", "hatchYear": 2024, "sex": "male", "right": "dark green", "left": "black"},
-    {"name": "Jacob", "hatchYear": 2024, "sex": "male", "right": "light blue", "left": "black"},
-    {"name": "Buddy", "hatchYear": 2025, "sex": "male", "right": "red", "left": "black"},
-    {"name": "Holly", "hatchYear": 2025, "sex": "female", "right": "light green", "left": "black"}
-  ]
+{
+      "birds": [
+            {
+                  "name": "Lemon",
+                  "hatchYear": 2009,
+                  "sex": "male",
+                  "right": "black",
+                  "left": "gold",
+                  "number": 35
+            },
+            {
+                  "name": "Peppermint",
+                  "hatchYear": 2015,
+                  "sex": "female",
+                  "right": "silver",
+                  "left": "black",
+                  "number": 42
+            },
+            {
+                  "name": "Madame Adelaide Hermann",
+                  "hatchYear": 2015,
+                  "sex": "female",
+                  "right": "black",
+                  "left": "orange",
+                  "number": 44 
+            },
+            {
+                  "name": "Boq",
+                  "hatchYear": 2019,
+                  "sex": "male",
+                  "right": "black",
+                  "left": "purple",
+                  "number": 37 
+            },
+            {
+                  "name": "Chomper",
+                  "hatchYear": 2019,
+                  "sex": "male",
+                  "right": "purple",
+                  "left": "black",
+                  "number": 12 
+            },
+            {
+                  "name": "Medika",
+                  "hatchYear": 2019,
+                  "sex": "female",
+                  "right": "brown",
+                  "left": "black",
+                  "number": 50 
+            },
+            {
+                  "name": "Hyde",
+                  "hatchYear": 2020,
+                  "sex": "female",
+                  "right": "teal",
+                  "left": "black",
+                  "number": 23
+            },
+            {
+                  "name": "Houdini",
+                  "hatchYear": 2021,
+                  "sex": "male",
+                  "right": "black",
+                  "left": "dark green",
+                  "number": 17 
+            },
+            {
+                  "name": "Angelica",
+                  "hatchYear": 2021,
+                  "sex": "female",
+                  "right": "orange",
+                  "left": "black",
+                  "number": 11
+            },
+            {
+                  "name": "Anakin",
+                  "hatchYear": 2021,
+                  "sex": "male",
+                  "right": "black",
+                  "left": "light blue",
+                  "number": 25
+            },
+            {
+                  "name": "Fluffy",
+                  "hatchYear": 2021,
+                  "sex": "female",
+                  "right": "black",
+                  "left": "pink",
+                  "number": 24
+            },
+            {
+                  "name": "Buckbeak",
+                  "hatchYear": 2021,
+                  "sex": "female",
+                  "right": "black",
+                  "left": "light green",
+                  "number": 1
+            },
+            {
+                  "name": "Wormtail",
+                  "hatchYear": 2021,
+                  "sex": "male",
+                  "right": "black",
+                  "left": "red",
+                  "number": 18 
+            },
+            {
+                  "name": "Nagini",
+                  "hatchYear": 2021,
+                  "sex": "male",
+                  "right": "black",
+                  "left": "orange",
+                  "number": 3 
+            },
+            {
+                  "name": "Niffler",
+                  "hatchYear": 2021,
+                  "sex": "male",
+                  "right": "black",
+                  "left": "blue",
+                  "number": 4 
+            },
+            {
+                  "name": "Pocus",
+                  "hatchYear": 2021,
+                  "sex": "male",
+                  "right": "black",
+                  "left": "light green",
+                  "number": 16 
+            },
+            {
+                  "name": "George",
+                  "hatchYear": 2023,
+                  "sex": "female",
+                  "right": "pink",
+                  "left": "black",
+                  "number": 15 
+            },
+            {
+                  "name": "Paul",
+                  "hatchYear": 2023,
+                  "sex": "female",
+                  "right": "gold",
+                  "left": "black",
+                  "number": 22 
+            },
+            {
+                  "name": "John",
+                  "hatchYear": 2023,
+                  "sex": "male",
+                  "right": "black",
+                  "left": "brown",
+                  "number": 49 
+            },
+            {
+                  "name": "Ringo",
+                  "hatchYear": 2023,
+                  "sex": "male",
+                  "right": "black",
+                  "left": "red",
+                  "number": 10 
+            },
+            {
+                  "name": "Florence",
+                  "hatchYear": 2023,
+                  "sex": "male",
+                  "right": "dark blue",
+                  "left": "black",
+                  "number": 2 
+            },
+            {
+                  "name": "Mary",
+                  "hatchYear": 2023,
+                  "sex": "male",
+                  "right": "black",
+                  "left": "pink",
+                  "number": 30 
+            },
+            {
+                  "name": "Diana",
+                  "hatchYear": 2023,
+                  "sex": "male",
+                  "right": "black",
+                  "left": "dark blue",
+                  "number": 13 
+            },
+            {
+                  "name": "Rocket",
+                  "hatchYear": 2024,
+                  "sex": "male",
+                  "right": "black",
+                  "left": "yellow",
+                  "number": 5 
+            },
+            {
+                  "name": "Hermione",
+                  "hatchYear": 2024,
+                  "sex": "male",
+                  "right": "black",
+                  "left": "teal",
+                  "number": 14 
+            },
+            {
+                  "name": "Stanley Cup",
+                  "hatchYear": 2024,
+                  "sex": "female",
+                  "right": "black",
+                  "left": "yellow",
+                  "number": 27 
+            },
+            {
+                  "name": "Bella",
+                  "hatchYear": 2024,
+                  "sex": "male",
+                  "right": "dark green",
+                  "left": "black",
+                  "number": 20
+            },
+            {
+                  "name": "Jacob",
+                  "hatchYear": 2024,
+                  "sex": "male",
+                  "right": "light blue",
+                  "left": "black",
+                  "number": 6 
+            },
+            {
+                  "name": "Buddy",
+                  "hatchYear": 2025,
+                  "sex": "male",
+                  "right": "red",
+                  "left": "black",
+                  "number": 48 
+            },
+            {
+                  "name": "Holly",
+                  "hatchYear": 2025,
+                  "sex": "female",
+                  "right": "light green",
+                  "left": "black",
+                  "number": 38 
+            }
+      ]
 }
