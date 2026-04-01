@@ -67,7 +67,7 @@ var Birds = {
       return m("tr", [
         m("th", {scope: "row"}, bird.name),
         m("td", bird.hatchYear),
-        m("td", bird.sex)
+        m("td", bird.sex),
         m("td", bird.number)
       ]);
     });
@@ -83,7 +83,7 @@ var Table = {
         m("tr", [
           m("th", {scope: "col"}, "Name"),
           m("th", {scope: "col"}, "Year"),
-          m("th", {scope: "col"}, "Gender")
+          m("th", {scope: "col"}, "Gender"),
           m("th", {scope: "col"}, "Number")
         ])
       ]),
